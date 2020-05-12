@@ -34,7 +34,7 @@ public class Account {
         Then return Sender is poor lol :)
 
        if the transferAmount is smaller than amountAccount1 variable of the object sendingUser
-            Remove 2 percent from the transferAmount
+            Remove 1 percent from the transferAmount
             remove the transferAmount from the sendingUser amountAccount1( you need to use withDraw method)
             add the transferAmount to the receivingUser  amountAccount1 (you need to use deposit method)
         Then return "Transaction is completed successfully"
