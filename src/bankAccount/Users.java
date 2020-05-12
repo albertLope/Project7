@@ -117,7 +117,7 @@ public class Users {
 
 
     /*
-        Create a Random number which is returning 8 digit number
+        Create a randomNumberCreader method  which is returning 8 digit number
 
             it should be between 10000000 - 99999999
 
