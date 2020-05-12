@@ -129,17 +129,21 @@ public class Users {
 
     /*
         Create a method name is transfer
-        Parameters are two Users object
+        Parameters are two Users(own, other) object
         Return type is void
 
         In this method
             First ask to user "Do you want to transfer between your accounts or different user" (use scanner class)
 
         if the answer is own
-           instance variable isTransferedSuceesfully eaguals to the the method transferToOwnAccount in the Account class
+        Ask to user "Enter amount of money you want to enter"
+       this amount will be your transferAmount to use for the transferToOwnAccount method that below
+           instance variable isTransferedSuceesfully equals to the the method transferToOwnAccount in the Account class
 
         if the answer different
-         instance variable isTransferedSuceesfully eaguals to the the method transferOtherUser in the Account class
+        Ask to user "Enter amount of money you want to enter"
+        this amount will be your transferAmount to use for the transferOtherUser method that below
+         instance variable isTransferedSuceesfully equals to the the method transferOtherUser in the Account class
 
 
      */
@@ -155,7 +159,6 @@ public class Users {
                 ......
 
      */
-
 
 
 }

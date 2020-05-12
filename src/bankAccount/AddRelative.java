@@ -32,7 +32,7 @@ public class AddRelative {
         if the relativeAge more and equal to 18 return true
         else false
 
-        Note: use a Users class checkAge method.
+        Note: use a Users class checkAge method(check which statement gives you the age is greater than and equal to 18)
      */
 
 

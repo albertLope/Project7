@@ -26,7 +26,7 @@ public class Account {
 
 
     /*
-        Create a method name is transferOtherUser
+        Create a static method name is transferOtherUser
         Parameters are 2 objects of Users class(Users  sendingUser , Users receivingUser )and one int (transferAmount)
         Return type is String
 
