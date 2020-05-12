@@ -28,6 +28,7 @@ public class Account {
     /*
         Create a method name is transferOtherUser
         Parameters are 2 objects of Users class(Users  sendingUser , Users receivingUser )and one int (transferAmount)
+        Return type is String
 
         if the transferAmount is greater  than amountAccount1 variable of the object sendingUser
         Then return Sender is poor lol :)
@@ -60,6 +61,7 @@ public class Account {
         return "You need more money dude"
 
        if the transferAmount is smaller than variable amountAccount1 of the object of Users
+        Remove 2 percent from the transferAmount
           remove the transferAmount from variable amountAccount1 of the object of Users  (use withDraw method)
           add transferAmount to variable amountAccount2 of the object of Users   (use deposit method)
 
